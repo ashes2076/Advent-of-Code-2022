@@ -27,5 +27,4 @@ for i in range(len(Me)):
         Me[i] = 2
     if Me[i] == 'Z':
         Me[i] = 3
-
-print (Opponent, Me)
+#to be finished
