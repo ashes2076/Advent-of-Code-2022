@@ -50,11 +50,5 @@ def solve(moves, body_length):
 #     print()
 
 moves = read_input()
-    print(f"moves[0]: {moves[0]}")
-    print(f"moves[1]: {moves[1]}")
-    print("...")
-    print(f"moves[-1]: {moves[-1]}")
-    print()
-
 print(f"Part 1: tail visited total {solve(moves, 2)} unique places")
 print(f"Part 2: tail visited total {solve(moves, 10)} unique places")
