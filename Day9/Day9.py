@@ -40,14 +40,21 @@ def solve(moves, body_length):
         body_pos = exec_moves(move, body_pos, tail_visit_overview)
     return len(tail_visit_overview)
 
-if __name__ == "__main__":
-    print("For debugging:")
-    moves = read_input()
+# if __name__ == "__main__":
+#     print("For debugging:")
+#     moves = read_input()
+#     print(f"moves[0]: {moves[0]}")
+#     print(f"moves[1]: {moves[1]}")
+#     print("...")
+#     print(f"moves[-1]: {moves[-1]}")
+#     print()
+
+moves = read_input()
     print(f"moves[0]: {moves[0]}")
     print(f"moves[1]: {moves[1]}")
     print("...")
     print(f"moves[-1]: {moves[-1]}")
     print()
 
-    print(f"Part 1: tail visited total {solve(moves, 2)} unique places")
-    print(f"Part 2: tail visited total {solve(moves, 10)} unique places")
+print(f"Part 1: tail visited total {solve(moves, 2)} unique places")
+print(f"Part 2: tail visited total {solve(moves, 10)} unique places")
